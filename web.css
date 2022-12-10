@@ -77,7 +77,28 @@ p{
   margin-bottom:5px;
   margin-right:200px ;
  }
+ .r1{
+  transition: 0.2s ease-in-out;
+ }
+.r1:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.b5{
+  padding:16px 27px;
+  font-weight:600;
+  margin-top: 21px;
+  margin-left: 500px;
+  border: 2px solid #5e068a;
+  border-radius:50px;
+  background-color:rgb(255,255,255);
+  color: #5e068a;
+}
+.b5:hover{
+  background-color: #5e068a;
+  color:rgb(255,255,255) ;
+}
 
 
 
